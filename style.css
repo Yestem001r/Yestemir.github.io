@@ -109,6 +109,7 @@ h1 {
   margin-bottom: 12px;
   padding: 24px 10px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .home-header {
   font-weight: 300;
@@ -147,8 +148,8 @@ body::before {
   background-image: url(./image/TV-noise.jpeg);
   background-position: 50% 0;
   background-size: 100%;
-  opacity: 0.027;
-  animation: noise 0.03s infinite linear;
+  opacity: 0.033;
+  animation: noise 0.02s infinite linear;
   z-index: 100000000;
   pointer-events: none;
 }
